@@ -1,18 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <style type="text/css">
-    #unityContainer {
-        width: 1080;  /* Your desired width */
-        height: 1920;  /* Your desired height */
-        margin: auto;
-        position: relative;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    }
-</style>
-
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -70,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/DoTheThingWeb.loader.js";
+      var loaderUrl = buildUrl + "/DoTheThingWebGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/DoTheThingWeb.data",
-        frameworkUrl: buildUrl + "/DoTheThingWeb.framework.js",
-        codeUrl: buildUrl + "/DoTheThingWeb.wasm",
+        dataUrl: buildUrl + "/DoTheThingWebGL.data",
+        frameworkUrl: buildUrl + "/DoTheThingWebGL.framework.js",
+        codeUrl: buildUrl + "/DoTheThingWebGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "DoTheThingWebGL",
